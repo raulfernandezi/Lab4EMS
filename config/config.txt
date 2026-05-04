@@ -1,2 +1,2 @@
-jdbc:mysql://localhost:3306/gestionasignaturas
+jdbc:mysql://localhost:3306/gestionasignaturas?serverTimezone=UTC&useSSL=false
 root

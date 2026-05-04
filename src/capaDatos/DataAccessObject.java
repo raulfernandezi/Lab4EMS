@@ -14,7 +14,7 @@ import java.sql.SQLException;
 public class DataAccessObject {
 
 
-    private static final String DRIVER = "com.mysql.jdbc.Driver";
+    private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
     /** Contiene la dirección de la Base de Datos.
      *  Se inicializa al comenzar la aplicación.
