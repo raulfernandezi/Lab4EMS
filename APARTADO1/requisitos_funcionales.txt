@@ -1,0 +1,134 @@
+1. Gestión de Cursos
+Historia de Usuario:
+
+Como Jefe de Departamento, quiero dar de alta nuevos cursos en el sistema para mantener actualizada la oferta académica anual.
+
+Criterios de Aceptación:
+
+El sistema debe permitir registrar un curso para el próximo ciclo lectivo.
+
+
+
+
+2. Gestión de Grupos
+Historia de Usuario:
+
+Como Jefe de Departamento, quiero crear grupos de clase para organizar la distribución de los alumnos en el centro.
+
+Criterios de Aceptación:
+
+Cada grupo tendrá un número máximo de alumnos.
+
+
+
+
+3. Asignación de Docentes
+Historia de Usuario:
+
+Como Jefe de Departamento, quiero asignar profesores a grupos específicos al inicio de cada curso para definir las responsabilidades docentes de la plantilla.
+
+Criterios de Aceptación:
+
+La asignación de profesores no tiene límites.
+
+
+
+
+4. Mantenimiento y Modificación
+Historia de Usuario:
+
+Como Jefe de Departamento, quiero modificar los datos de cursos y grupos ya existentes para corregir errores o realizar ajustes.
+
+Criterios de Aceptación:
+
+Se debe permitir actualizar cursos y grupos incluso de años pasados.
+
+
+
+
+5. Gestión de Matrículas
+Historia de Usuario:
+
+Como Profesor, quiero matricular a los alumnos en mis grupos de clase para formalizar su inscripción en la asignatura durante el curso.
+
+Criterios de Aceptación:
+
+El sistema debe registrar la fecha.
+
+Un alumno puede estar en varios grupos el mismo curso.
+
+
+
+
+6. Modificación de Matrículas
+Historia de Usuario:
+
+Como Profesor, quiero modificar la matricula y la fecha de asignación de mis alumnos para mantener los datos actualizados.
+
+Criterios de Aceptación:
+
+El sistema debe permitir modificar datos de cursos pasados.
+
+
+
+
+7. Evaluación de Alumnos
+Historia de Usuario:
+
+Como Profesor, quiero registrar y consultar las calificaciones de los alumnos para llevar un control de su progreso académico en las distintas pruebas (exámenes, prácticas, etc.).
+
+Criterios de Aceptación:
+
+El sistema debe permitir la entrada de notas numéricas.
+
+
+
+
+8. Modificación de Calificaciones
+Historia de Usuario:
+
+Como Profesor, quiero modificar las notas ya introducidas para corregir errores de transcripción o actualizar resultados tras una revisión.
+
+Criterios de Aceptación:
+
+El sistema debe actualizar el campo Nota_Final automáticamente si las notas parciales son modificadas.
+
+Se debe permitir la modificación de notas de prácticas y exámenes de forma independiente.
+
+
+
+
+9. Consulta de Calificaciones
+Historia de Usuario:
+
+Como Alumno, quiero consultar mis notas a través de la aplicación para conocer mis resultados académicos de forma rápida y privada.
+
+Criterios de Aceptación:
+
+El sistema debe mostrar los grupos de clase en los que el alumno ha estado matriculado en cada curso.
+
+
+
+
+10. Control de Acceso por Perfil (RBAC)
+Historia de Usuario:
+
+Como Administrador del Sistema, quiero que la aplicación valide el perfil del usuario al iniciar sesión para garantizar que cada persona acceda únicamente a las funciones permitidas según su rol (Jefe, Profesor o Alumno).
+
+Criterios de Aceptación:
+
+Si un usuario intenta acceder a funciones no permitidas se le deniega la posibilidad de hacerlo.
+
+El sistema no debe permitir cambiar los datos de inicio de sesión.
+
+
+
+
+11. Integración con Sistema Externo (CIC)
+Historia de Usuario:
+
+Como Sistema de Gestión de Asignaturas, quiero importar la información de alumnos y profesores desde el CIC para evitar la carga manual de datos y asegurar la consistencia con los registros oficiales del centro.
+
+Criterios de Aceptación:
+
+El sistema solo tendrá acceso al correo del usuario y su rol por motivos de seguridad.
