@@ -18,7 +18,7 @@ INSERT INTO `PROFESOR` (`Cod_P`, `Nombre`, `Apellidos`, `activo`) VALUES
 
 INSERT INTO `CURSO` (`Cod_CURSO`, `actual`) VALUES 
 (2023, b'0'),
-(2024, b'1'), -- Importante para tu Java
+(2024, b'1'),
 (2025, b'0');
 
 INSERT INTO `GRUPO_PRACTICA` (`Cod_GP`, `activo`) VALUES 
