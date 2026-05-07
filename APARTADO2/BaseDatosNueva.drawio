@@ -1,9 +1,24 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="_4SXvjzJ10rmj65OcAKo">
-    <mxGraphModel>
+    <mxGraphModel dx="913" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cOHnzmlW3m6PoxWH73Tl-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alumno" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cOHnzmlW3m6PoxWH73Tl-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Profesor" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cOHnzmlW3m6PoxWH73Tl-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Grupo_clase" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cOHnzmlW3m6PoxWH73Tl-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Curso" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cOHnzmlW3m6PoxWH73Tl-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
