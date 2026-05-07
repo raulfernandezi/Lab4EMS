@@ -132,3 +132,13 @@ Como Sistema de Gestión de Asignaturas, quiero importar la información de alum
 Criterios de Aceptación:
 
 El sistema solo tendrá acceso al correo del usuario y su rol por motivos de seguridad.
+
+12. Inicio de sesion
+
+Historia de Usuario:
+
+Como Sistema de Gestión de Asignaturas,quiero que la gente acceda al sistema con su email de la institucion y su contraseña para garantizar un accesao único y seguro.
+
+Criterios de Aceptación:
+
+Solo se podrá acceder al sistema si se pertenece a la universidad.
