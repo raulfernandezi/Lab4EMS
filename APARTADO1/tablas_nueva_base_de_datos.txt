@@ -1,0 +1,17 @@
+alumno(id)
+
+profesor(id, es_jefe)
+
+//rol(nombre_rol, id_alumno)
+
+grupo_clase(id, nombre, maximo_alumnos)
+
+curso(id, anio_inicio, anio_fin)
+
+evaluacion(nota, presentado, convocatoria, id_usuario, id_grupo_clase, id_curso)
+
+grupo_curso(id_grupo, id_curso)
+
+grupo_alumno(id_grupo, id_alumno, fecha_asignacion)
+
+grupo_profesor(id_grupo, id_profesor)
